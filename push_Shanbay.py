@@ -4,7 +4,7 @@ import re
 access_token = "Y21FQwl8zWlWKYYUQRlJ3faTkshalr"  #Swap this with your Shanbay Token
 
 def addWord(word):
-	print（"adding word: " + word）
+	print("adding word: " + word)
 	try:
 		idStr = requests.get("https://api.shanbay.com/bdc/search/?word="+word+"&access_token=" + access_token)
 		result = json.loads(idStr.text)
@@ -22,7 +22,7 @@ def addWord(word):
 		return True
 
 	except Exception as e:
-		print（e）
+		print(e)
 		return False
 
 
