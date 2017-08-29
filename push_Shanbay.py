@@ -1,7 +1,7 @@
 import requests
 import json
 import re
-access_token = "pEU2QXajcjMk382BTB4PWjTIiejaUQ"  #Swap this with your Shanbay Token
+access_token = "Y21FQwl8zWlWKYYUQRlJ3faTkshalr"  #Swap this with your Shanbay Token
 
 def addWord(word):
 	print "adding word: " + word
